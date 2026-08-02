@@ -59,9 +59,6 @@ export function initCarousel() {
       dot.classList.toggle('active', i === currentPage);
       dot.setAttribute('aria-selected', i === currentPage ? 'true' : 'false');
     });
-   prevBtn.disabled = false;
-    nextBtn.disabled = false;
-  }
 // With infinite loop, buttons don't need to be permanently disabled at edges
     prevBtn.disabled = false;
     nextBtn.disabled = false;
