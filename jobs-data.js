@@ -193,7 +193,7 @@ export const JOBS = [
       "Track record of mentoring engineers and building team-level processes or documentation that scale beyond yourself",
       "Strong English communication skills, written and verbal — able to write clearly for both engineers and non-technical stakeholders",    
     ],
-    nice to have: [
+    "nice to have": [
       "XP techniques (pair programming, TDD) (Nice to have)",
       "Experience with event-driven architectures, RabbitMQ, and Apache Kafka",
       "Familiarity with observability tools (Honeycomb, Datadog, or similar)",
@@ -241,11 +241,11 @@ export const JOBS = [
       "Strong leadership and collaboration skills in a distributed team environment",
       "Strong English communication"
     ],
-    who you will be working with: [
+    "who you will be working with": [
       "Engineering team members",
       "Product management team"
     ],
-    how you will add value: [
+    "how you will add value": [
       "Raising the bar of what-good-looks-like within the Company Engineering",
       "Design, development, and delivery of quality, maintainable backend, web applications",
       "Creation of APIs which will be consumed both internally and externally",
