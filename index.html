@@ -112,10 +112,6 @@
       </div>
 
       <div class="jobs-toolbar">
-        <div class="search-box">
-          <svg viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-          <input type="text" id="jobSearch" placeholder="Search roles, teams, companies…" autocomplete="off">
-        </div>
         <div class="filter-chips">
           <button class="chip active" data-dept="All">All</button>
           <button class="chip" data-dept="Engineering">Engineering</button>
@@ -124,6 +120,23 @@
           <button class="chip" data-dept="Product">Product</button>
           <button class="chip" data-dept="QA">QA</button>
           <button class="chip" data-dept="Operations">Operations</button>
+        </div>
+
+        <div class="filter-secondary">
+          <div class="search-box">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <input type="text" id="jobSearch" placeholder="Search roles, teams, companies…" autocomplete="off">
+          </div>
+          <div class="select-wrap">
+            <select id="companyFilter" class="filter-select" aria-label="Filter by company">
+              <option value="All">All companies</option>
+            </select>
+          </div>
+          <div class="select-wrap">
+            <select id="techFilter" class="filter-select" aria-label="Filter by tech stack">
+              <option value="All">All tech stacks</option>
+            </select>
+          </div>
         </div>
       </div>
 
