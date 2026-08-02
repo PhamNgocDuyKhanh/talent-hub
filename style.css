@@ -795,28 +795,3 @@ footer{
   transform: translateY(-70%) rotate(45deg);
   pointer-events: none;
 }
-
-.clear-filters-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: transparent;
-  border: 1px dashed var(--border-strong);
-  color: var(--text-muted);
-  font-size: 0.85rem;
-  padding: 8px 14px;
-  border-radius: var(--radius-pill);
-  cursor: pointer;
-  transition: all 0.2s var(--ease);
-}
-
-.clear-filters-btn:hover {
-  background: var(--surface-hover, rgba(0, 0, 0, 0.03));
-  color: var(--text);
-  border-color: var(--text-muted);
-}
-
-/* Utility class to hide the button when no filters are active */
-.clear-filters-btn.hidden {
-  display: none;
-}
