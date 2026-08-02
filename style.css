@@ -601,7 +601,7 @@ nav.primary-nav a:hover{ color: var(--text); background: var(--surface-hover); }
   padding-right: var(--gap);
 }
 .carousel-slide img{
-  width: 100%; height: 320px; /* Increased from 260px */
+  width: 100%; height: 360px; /* Increased from 260px */
   object-fit: cover;
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
