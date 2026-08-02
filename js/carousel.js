@@ -59,12 +59,25 @@ export function initCarousel() {
       dot.classList.toggle('active', i === currentPage);
       dot.setAttribute('aria-selected', i === currentPage ? 'true' : 'false');
     });
-    prevBtn.disabled = currentPage === 0;
-    nextBtn.disabled = currentPage === totalPages - 1;
+   prevBtn.disabled = false;
+    nextBtn.disabled = false;
+  }
+// With infinite loop, buttons don't need to be permanently disabled at edges
+    prevBtn.disabled = false;
+    nextBtn.disabled = false;
   }
 
   function goToPage(page, animate = true) {
-    currentPage = Math.max(0, Math.min(page, totalPages - 1));
+    // --- LOOP LOGIC START ---
+    if (page < 0) {
+      currentPage = totalPages - 1; // Wrap from first to last page
+    } else if (page >= totalPages) {
+      currentPage = 0;             // Wrap from last to first page
+    } else {
+      currentPage = page;
+    }
+    // --- LOOP LOGIC END ---
+
     if (!animate) track.classList.add('no-transition');
     track.style.transform = `translateX(-${currentPage * pageStep}px)`;
     if (!animate) {
