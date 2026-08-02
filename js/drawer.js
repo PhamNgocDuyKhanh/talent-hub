@@ -151,6 +151,9 @@ export function openDrawer(id, { pushHistory = true } = {}) {
       <ul>${job.responsibilities.map(r => `<li>${r}</li>`).join('')}</ul>
     </div>
     ${optionalListSection("Qualifications", job.qualifications)}
+    ${optionalListSection("Nice to have", job.niceToHave)}
+    ${optionalListSection("Who you will be working with", job.whoYouWillBeWorkingWith)}
+    ${optionalListSection("How you will add value", job.howYouWillAddValue)}
     ${optionalListSection("How success will be measured", job.successMetrics)}
     ${optionalListSection("Why us?", job.whyUs)}
   `;
