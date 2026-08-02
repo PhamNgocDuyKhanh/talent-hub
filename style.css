@@ -748,3 +748,50 @@ footer{
   nav.primary-nav{ display: none; }
   .section{ padding: 64px 0; }
 }
+/* ==========================================================================
+   HYBRID FILTER SYSTEM — style.css changes
+   ========================================================================== */
+
+.jobs-toolbar{
+  display: flex; flex-direction: column; gap: 14px;
+  align-items: stretch; justify-content: flex-start; flex-wrap: nowrap;
+  margin-bottom: 28px;
+}
+
+.filter-secondary{
+  display: flex; gap: 10px; flex-wrap: wrap;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.select-wrap{ position: relative; }
+.filter-select{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: var(--font-mono);
+  font-size: .8rem;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 9px 32px 9px 14px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: border-color .18s var(--ease), color .18s var(--ease);
+}
+.filter-select:hover{ border-color: var(--border-strong); color: var(--text); }
+.filter-select:focus{ outline: none; border-color: var(--accent); }
+.filter-select.active{ color: var(--text); border-color: var(--text); }
+.select-wrap::after{
+  content: "";
+  position: absolute; right: 13px; top: 50%;
+  width: 7px; height: 7px;
+  border-right: 1.5px solid var(--text-faint);
+  border-bottom: 1.5px solid var(--text-faint);
+  transform: translateY(-70%) rotate(45deg);
+  pointer-events: none;
+}
