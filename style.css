@@ -170,7 +170,7 @@ header .wrap{
   gap: 24px;
 }
 header .logo img{
-  height: 64px;
+  height: 48px;
   width: auto;
   transition: filter .25s var(--ease);
 }
