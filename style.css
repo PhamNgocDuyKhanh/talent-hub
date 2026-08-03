@@ -122,6 +122,36 @@ p{ line-height: 1.65; color: var(--text-muted); margin: 0 0 1em; }
 .section-head h2{ color: var(--text); }
 .section-head p{ font-size: 1.05rem; }
 
+/* ---- site note --------------------------------------------------------------- */
+.site-note{
+  margin-top:24px;
+  max-width:620px;
+  padding:18px;
+
+  background:var(--bg-elevated);
+  border:1px solid var(--border);
+  border-radius:var(--radius-md);
+}
+
+.site-note strong{
+  display:block;
+  margin-bottom:8px;
+
+  font-size:.82rem;
+  font-weight:600;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+
+  color:var(--accent);
+}
+
+.site-note p{
+  margin:0;
+  font-size:.92rem;
+  line-height:1.65;
+  color:var(--text-muted);
+}
+
 /* ---- Header ---------------------------------------------------------------- */
 header{
   position: fixed;
