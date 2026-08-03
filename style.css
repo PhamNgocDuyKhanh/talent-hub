@@ -170,14 +170,14 @@ header .wrap{
   gap: 24px;
 }
 header .logo img{
-  height: 32px;
+  height: 64px;
   width: auto;
   transition: filter .25s var(--ease);
 }
-/* Your logo file is a solid white mark on a transparent background.
-   In light mode we flip it to black so it stays visible; dark mode
+/* Logo file is a solid black mark on a transparent background.
+   In dark mode we flip it to black so it stays visible; light mode
    uses it as-is. */
-[data-theme="light"] header .logo img{
+[data-theme="dark"] header .logo img{
   filter: invert(1);
 }
 
