@@ -22,7 +22,7 @@ export const JOBS = [
   // ==========================================
   // Company: CBTW
   // ==========================================
-/*      {
+ {
     id: "operations-manager-cbtw-02",
     title: "Operations Manager",
     company: "CBTW",
@@ -49,8 +49,7 @@ export const JOBS = [
       "Mentor and develop team members, promoting professional growth and development.",
       "Drive continuous training initiatives to maintain high standards of service performance across the team.",
       "Conduct regular one-on-one meetings with team leaders to support professional development, provide ongoing feedback, and reinforce a positive and professional work ethic.",
-      "Organize regular team-building activities to strengthen collaboration and cultivate a positive team culture."
-      ]  
+      "Organize regular team-building activities to strengthen collaboration and cultivate a positive team culture."  
     ],
     qualifications: [
       "13+ years of experience in Product Management, Product Ownership, Business Analysis, or related delivery roles across strategic initiatives, client engagements, and complex delivery environments",
@@ -61,7 +60,7 @@ export const JOBS = [
       "Ability to work in a fast-paced, dynamic environment and adapt to changing priorities",
       "Fluent in English"
     ],
-  }, when adding this code, something is wrong that makes all the JS functions not work. E.g: darkmode/ light mode function, job listing, carousel,...*/
+  }, 
   {
     id: "product-manager-cbtw-01",
     title: "Senior Product Manager",
