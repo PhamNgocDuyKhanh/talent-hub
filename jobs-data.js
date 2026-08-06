@@ -22,7 +22,46 @@ export const JOBS = [
   // ==========================================
   // Company: CBTW
   // ==========================================
-   
+/*      {
+    id: "operations-manager-cbtw-02",
+    title: "Operations Manager",
+    company: "CBTW",
+    companyUrl: "https://cbtw.tech/about",
+    department: "Product",
+    techStack: ["Operations Management"],
+    location: "HCMC",
+    type: "Full-time",
+    blurb: "As the Operations Manager, you will drive operational excellence across engineering teams by optimizing processes, leading people, and fostering high performance. You will create an environment where engineers collaborate effectively, grow professionally, and consistently deliver high-quality solutions.",
+    responsibilities: [
+      "",
+      "OPERATIONAL MANAGEMENT AND CROSS-FUNCTIONAL COLLABORATION",
+      "Oversee daily operations of development teams in Vietnam (HR-related operations, resource allocation, sprint management, issue management).",
+      "Implement and monitor key performance indicators (KPIs) to measure success and drive improvement.",
+      "Oversee recruitment, onboarding, and continuous training to ensure new hires adapt quickly to the team and company while equipping the workforce to consistently deliver high-quality service performance.",
+      "Work closely with overseas stakeholders (senior management, product, engineering, customer support) to drive operational efficiencies and meet business objectives.",
+      "",
+      "PROCESSES AND PROCEDURES",
+      "Establish and continuously improve processes and procedures to drive efficiency, ensure quality, and align with global team standards.",
+      "Bridge cultural and communication gaps across teams to enable effective collaboration and mutual understanding.",
+      "",
+      "LEADERSHIP AND TEAM DEVELOPMENT ",
+      "Build a team culture of innovation, collaboration, and continuous improvement.",
+      "Mentor and develop team members, promoting professional growth and development.",
+      "Drive continuous training initiatives to maintain high standards of service performance across the team.",
+      "Conduct regular one-on-one meetings with team leaders to support professional development, provide ongoing feedback, and reinforce a positive and professional work ethic.",
+      "Organize regular team-building activities to strengthen collaboration and cultivate a positive team culture."
+      ]  
+    ],
+    qualifications: [
+      "13+ years of experience in Product Management, Product Ownership, Business Analysis, or related delivery roles across strategic initiatives, client engagements, and complex delivery environments",
+      "Bachelor’s degree in Computer Science, Engineering, Business Administration, or a related field",
+      "5+ years of experience in operations management, preferably within a global tech or software company",
+      "Excellent leadership, communication, interpersonal skills, problem-solving and decision-making abilities",
+      "Strategic thinker with the ability to drive innovation and growth",
+      "Ability to work in a fast-paced, dynamic environment and adapt to changing priorities",
+      "Fluent in English"
+    ],
+  }, when adding this code, something is wrong that makes all the JS functions not work. E.g: darkmode/ light mode function, job listing, carousel,...*/
   {
     id: "product-manager-cbtw-01",
     title: "Senior Product Manager",
