@@ -27,7 +27,7 @@ export const JOBS = [
     title: "Operations Manager",
     company: "CBTW",
     companyUrl: "https://cbtw.tech/about",
-    department: "Product",
+    department: "Operations",
     techStack: ["Operations Management"],
     location: "HCMC",
     type: "Full-time",
