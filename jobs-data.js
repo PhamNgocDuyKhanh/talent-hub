@@ -77,7 +77,7 @@ export const JOBS = [
        "End to end understanding of RAG or GraphRAG, you can explain the why behind chunking, embedding models, metrics and different vector databases.",
        "Ensure model or agent and model interpretability, fairness, and robustness in production environments.",
        "Document methodologies, findings, and share knowledge through internal collaboration platforms.",
-       "CONSULTING AND STRATEGY:"
+       "CONSULTING AND STRATEGY:",
        "Client Strategy Development: Guide clients through AI strategy formulation, helping them identify optimal AI applications needs. Identify the client’s potential AI gap in their existing products or infrastructure.",
        "Technology Assessment: Evaluate and recommend appropriate AI technologies (traditional ML, LLMs, agent systems) based on client requirements and their use cases.",
        "Project Leadership: Lead cross-functional teams including experts and data engineers to deliver comprehensive AI solutions.",
@@ -86,7 +86,7 @@ export const JOBS = [
        "Domain Expertise Development: Collaborate closely with the client, and their experts to understand complex challenges and translate them into AI solutions.",
        "AI Ethics and Safety: Implement explainable AI frameworks, bias mitigation strategies, and safety protocols specifically designed for applications.",
        "Model Validation: Design and execute rigorous validation protocols for AI models in this setup, ensuring performance, quality, and adherence to standards.",
-       "TRAINING & COACHING:"
+       "TRAINING & COACHING:",
        "Mentor, coach, and guide team members in AI technical domains to strengthen expertise and ensure alignment with company standards.",
        "Develop technical guidelines, best practices, and reusable frameworks to drive consistency and quality across projects.",
        "Organize workshops, code reviews, and knowledge-sharing sessions to disseminate expertise in ML, LLMs, and AI systems.",
