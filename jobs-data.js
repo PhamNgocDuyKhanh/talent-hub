@@ -17,7 +17,6 @@
    -> "applyUrl" should point at the real ATS/job posting. Leave blank to
       fall back to the mailto quick-apply flow.
    ========================================================================== */
-
 export const JOBS = [
   // ==========================================
   // Company: CBTW
