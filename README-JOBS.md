@@ -1,4 +1,4 @@
-# Managing Job Listings — CBTW Careers Site
+# Managing Job Listings — Careers Site
 
 This is the guide for anyone adding, editing, or removing job postings on the
 careers site — no coding background required, just careful copy-pasting.
