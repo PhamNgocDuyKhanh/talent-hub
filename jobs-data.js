@@ -22,6 +22,44 @@ export const JOBS = [
   // Company: CBTW
   // ==========================================
  {
+  id: "po-ift",
+  title: "Senior Product Owner",
+  company: "InfoTrack Global",
+  companyUrl: "https://www.infotrack.com.au/",
+  department: "product",
+  techStack: ["PO"],
+  location: "HCMC",
+  type: "Full-time",
+  blurb: "",
+  responsibilities: [
+     "We are seeking a Product Owner to join the Global Platform Team in Vietnam:",
+     "Own the release and milestone backlogs for the platform, aligned to roadmap objectives, and lead estimation and planning for complex initiatives.",
+     "Ensure alignment between execution and release goals, translating the vision for back-end services in your portfolio (such as APIs) into tangible deliverables.",
+     "Manage dependencies across teams within release scope and proactively manage delivery risks and blockers.",
+     "Facilitate stakeholder alignment sessions and workshops with development teams in all geos to uncover requirements, use cases and opportunities for improvement, and evangelise the platform and best practices for product teams.",
+     "Validate proposal feasibility within release scope and ensure traceability from business requirements through release delivery.",
+     "Maintain and prioritise backlog, triage bugs and feature requests, and ensure all stakeholders know what to expect on delivery of features and fixes.",
+     "Drive continuous improvement of backlog and release management processes and comms.",
+     "Use AI-assisted tools effectively to enhance productivity in product analysis and specification, roadmap and backlog management, and collaboration.",
+     "Become a subject matter expert on the Platform from a product perspective, contributing at a strategic planning level by proposing initiatives that translate directly into roadmap items for your areas."
+   ],
+  qualifications: [
+    "5+ years' experience in a product or delivery role, including ownership of releases or milestones.",
+     "Strong release governance and backlog management expertise, with a clear awareness of how delivery aligns to business objectives.",
+     "Technical fundamentals sufficient to contribute credibly to architecture discussions.",
+     "Demonstrated risk and dependency management across multiple delivery teams.",
+     "Effective use of AI-assisted tools to support analysis, documentation, and productivity in product management work.",
+     "Excellent verbal and written communication and presentation skills in English.",
+     "Proven experience working with multiple stakeholders in a large organisation, with strong facilitation, influencing and negotiation skills.",
+     "Familiar with Agile concepts and AI assisted SDLC.",
+     "Familiar with business concepts such as Legal tech, RegTech, Order/Transaction management aspects are desirable",
+     "Strategic yet execution-oriented, accountable for release outcomes, with a genuine interest in technology and industry trends.",
+     "Ability to work effectively in a fast-paced environment and sustain pressure from multiple concurrent initiatives.",
+     "Demonstrated openness to change and adaptability within a dynamic environment."
+     ],
+},
+  
+ {
     id: "operations-manager-cbtw-02",
     title: "Operations Manager",
     company: "CBTW",
