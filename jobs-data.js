@@ -19,7 +19,7 @@
    ========================================================================== */
 export const JOBS = [
   // ==========================================
-  // Company: CBTW
+  // Company: InfoTrack Global
   // ==========================================
  {
   id: "po-ift",
@@ -58,7 +58,51 @@ export const JOBS = [
      "Demonstrated openness to change and adaptability within a dynamic environment."
      ],
 },
-  
+
+
+  // ==========================================
+  // Company: MessageMedia
+  // ==========================================
+  {
+    id: "java-engineer-mm-01",
+    title: "Senior Java Engineer (Large-scale Microservices, AWS)",
+    company: "MessageMedia",
+    companyUrl: "https://messagemedia.com/au/",
+    department: "Engineering",
+    techStack: ["Java", "AWS", "Microservices"],
+    location: "HCMC",
+    type: "Full-time",
+    blurb: "Build and scale Java microservices on AWS that move millions of messages a day.",
+    responsibilities: [
+      "Work as software engineer on the web-based application product in JAVA-related and open-source technologies",
+      "Develop and enhance product offerings in accordance with design, consistent with business objectives",
+      "Continuously research and implement new technologies to maximize development efficiency",
+      "Identify potential issues and working out possible solutions",
+      "Provide continuous support and guidance to less senior colleagues through regular coaching activities and support them in fulfilling their personal development plans"
+    ],
+    qualifications: [
+      "At least 3+ YoE for the Medior level and 5+ years for the Senior level. If you’re confident in your skills, don’t hesitate to apply regardless of your years of experience",
+      "Proven hands-on experience on Java ecosystem, Spring boot, core Java concepts: OOP, Collections, Threading, Concurrency, memory management, etc.",
+      "Experience with one of NoSQL databases: MongoDB/Cassandra/graph DB (Neo4j)",
+      "Well-versed in writing structured, well-documented, maintainable, and clean code",
+      "Strong experience in Restful API design and integration",
+      "Strong experience designing, building, and maintaining microservices-based architectures, event-driven architecture",
+      "Hands-on experience with distributed system challenges such as latency, partial failures, retries, and timeouts, etc.",
+      "Demonstrate your experience with design patterns, coding standards, TDD",
+      "Understanding of agent-based systems and tool calling architectures",
+      "Exposure to MCP (Model Context Protocol) or similar tool orchestration frameworks",
+      "Cloud-based technologies: AWS, OpenShift, Docker is a BIG plus",
+      "Experience with Kotlin/NodeJS/Python/ReactJS is a BIG plus",
+      "Working knowledge of functional programming languages is a BIG plus",
+      "Be happy to coach, mentor and train less senior colleagues",
+      "Good command of English (both written/verbal) is essential"
+    ],
+  },   
+
+  // ==========================================
+  // Company: InfoTrack Global
+  // ==========================================
+   
  {
     id: "operations-manager-cbtw-02",
     title: "Operations Manager",
@@ -407,44 +451,6 @@ export const JOBS = [
     ],
   },
 
-  // ==========================================
-  // Company: MessageMedia
-  // ==========================================
-  {
-    id: "java-engineer-mm-01",
-    title: "Senior Java Engineer (Large-scale Microservices, AWS)",
-    company: "MessageMedia",
-    companyUrl: "https://messagemedia.com/au/",
-    department: "Engineering",
-    techStack: ["Java", "AWS", "Microservices"],
-    location: "HCMC",
-    type: "Full-time",
-    blurb: "Build and scale Java microservices on AWS that move millions of messages a day.",
-    responsibilities: [
-      "Work as software engineer on the web-based application product in JAVA-related and open-source technologies",
-      "Develop and enhance product offerings in accordance with design, consistent with business objectives",
-      "Continuously research and implement new technologies to maximize development efficiency",
-      "Identify potential issues and working out possible solutions",
-      "Provide continuous support and guidance to less senior colleagues through regular coaching activities and support them in fulfilling their personal development plans"
-    ],
-    qualifications: [
-      "At least 3+ YoE for the Medior level and 5+ years for the Senior level. If you’re confident in your skills, don’t hesitate to apply regardless of your years of experience",
-      "Proven hands-on experience on Java ecosystem, Spring boot, core Java concepts: OOP, Collections, Threading, Concurrency, memory management, etc.",
-      "Experience with one of NoSQL databases: MongoDB/Cassandra/graph DB (Neo4j)",
-      "Well-versed in writing structured, well-documented, maintainable, and clean code",
-      "Strong experience in Restful API design and integration",
-      "Strong experience designing, building, and maintaining microservices-based architectures, event-driven architecture",
-      "Hands-on experience with distributed system challenges such as latency, partial failures, retries, and timeouts, etc.",
-      "Demonstrate your experience with design patterns, coding standards, TDD",
-      "Understanding of agent-based systems and tool calling architectures",
-      "Exposure to MCP (Model Context Protocol) or similar tool orchestration frameworks",
-      "Cloud-based technologies: AWS, OpenShift, Docker is a BIG plus",
-      "Experience with Kotlin/NodeJS/Python/ReactJS is a BIG plus",
-      "Working knowledge of functional programming languages is a BIG plus",
-      "Be happy to coach, mentor and train less senior colleagues",
-      "Good command of English (both written/verbal) is essential"
-    ],
-  },
 
   // ==========================================
   // Company: Pepperstone — Trading Platform
